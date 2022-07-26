@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+a{
+    text-decoration: none; 
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.space-btw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar{
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+}
+#body{
+    height: 2000px;
+    width: 75%;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+nav{
+    height: 50px;
+    width: 75%;
+    background-color: black;
+    position: fixed;    
+    z-index: 2;
+    top: 0px;
+    padding: 0px 3% 0px 3%;
+    box-sizing: border-box;
+}
+nav>h4{
+    color: chartreuse;
+}
+.download-cv{
+    height: 40px;
+    width: 130px;
+    color: black;
+    background-color: chartreuse;
+}
+.home{
+    height: 690px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+}
+.oval1{
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: chartreuse;  
+}
+.circle>img{
+    height: 600px;
+}
+.circle{
+    height: 520px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    top: 45px;
+    border-radius:  0 0 350px 350px/ 0 0 60px 60px;
+}
+.picture{
+    height: 600px;
+    width: 45%;
+    background-image: url(images/abas.png);
+    background-size: cover;
+    background-position: center;
+}
+.circle> h1{
+    height: 200px;
+    width: 44%;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.circle> h1>span{
+    font-size: 25px;
+}
+#ukanga{
+    font-size: 60px;
+}
